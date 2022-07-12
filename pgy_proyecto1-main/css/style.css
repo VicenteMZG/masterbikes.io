@@ -1,0 +1,229 @@
+.color_el {
+    background-color: rgb(255, 255, 255);
+}
+.page_color {
+    background-color: rgb(255, 255, 255);
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+   background: url(https://img2.freepng.es/20180326/suw/kisspng-computer-software-desktop-wallpaper-clip-art-sky-5ab93e2c47e7b5.1403352415220895162945.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+* {
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background: #fff;
+    margin-top: 150px;
+    padding: 3px;
+}
+h2{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: cadetblue;
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+      color: #1a2537;
+    font-weight: 600;
+}
+.link:hover{
+     color: cadetblue;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.conte_parent{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-wrap:wrap;
+  
+}
+.conte{
+    height: 510px;
+    width: 350px;
+    box-shadow:0 0 7px #111 ;
+    margin: 30px 30px;
+}
+.conte .card{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 170px;
+}
+.card img{
+    margin: auto;
+    display: block;
+}
+.conte .bicicleta1 img{
+    height: 330px;
+    width: 300px;
+}
+.conte .bicicleta1{
+     background-color: rgb(255, 255, 255);
+}
+.conte .bicicleta2{
+    background-color: #ffffff;
+}
+.conte .bicicleta3{
+    background-color:#ffffff;
+}
+.conte .bicicleta2 img{
+    height: 330px;
+    width: 230px;
+}
+.conte .bicicleta3 img{
+    height: 330px;
+    width: 300px;
+}
+.informacion{
+    height: 80px;
+    width: 100%;
+}
+.informacion h1{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+    margin-bottom: -10px;
+}
+.informacion p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .9em;
+    color: #555;
+}
+.precio {
+    height:50px;
+    width: 85%;
+    margin: auto;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-precio{
+    width: 80px;
+}
+ .precio1{
+    color: rgb(255, 0, 0);
+    font-size: .8em;
+}
+.precio .precio2{
+    font-size: 1.5em;
+}
+.shoping{
+    font-size: 1.5em;
+    color: rgb(255, 0, 0);
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.6;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+
+  .fa-whatsapp {
+    background: rgb(153, 255, 0);
+    color: white;
+  }
+
+  .fa-location-dot {
+    background: rgb(17, 112, 17);
+    color: white;
+  }
+  
